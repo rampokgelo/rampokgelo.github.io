@@ -116,6 +116,9 @@
   @include hover-focus {
     text-decoration: none;
   }
+  @include media-breakpoint-up(sm){
+    display: none;
+  }
 }
 
 // Keep as a separate element so folks can easily override it with another icon
