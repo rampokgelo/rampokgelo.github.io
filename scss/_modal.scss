@@ -30,6 +30,9 @@
   // We deliberately don't use `-webkit-overflow-scrolling: touch;` due to a
   // gnarly iOS Safari bug: https://bugs.webkit.org/show_bug.cgi?id=158342
   // See also https://github.com/twbs/bootstrap/issues/17695
+  &.show{
+    padding-right: 0px !important;
+  }
 }
 
 // Shell div to position the modal with bottom padding
@@ -51,11 +54,11 @@
 }
 
 .modal-dialog-scrollable {
-  display: flex; // IE10/11
+  display: flex; 
   max-height: calc(100% - #{$modal-dialog-margin * 2});
 
   .modal-content {
-    max-height: calc(100vh - #{$modal-dialog-margin * 2}); // IE10/11
+    max-height: calc(100vh - #{$modal-dialog-margin * 2});
     overflow: hidden;
   }
 
@@ -99,6 +102,7 @@
 
 // Actual modal
 .modal-content {
+  padding: $spacer*2;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -109,7 +113,7 @@
   background-color: $modal-content-bg;
   background-clip: padding-box;
   border: $modal-content-border-width solid $modal-content-border-color;
-  @include border-radius($modal-content-border-radius);
+  //@include border-radius($modal-content-border-radius);
   @include box-shadow($modal-content-box-shadow-xs);
   // Remove focus outline from opened modal
   outline: 0;
@@ -186,11 +190,9 @@
   overflow: scroll;
 }
 
-// Scale up the modal
 @include media-breakpoint-up(sm) {
-  // Automatically set modal's width for larger viewports
   .modal-dialog {
-    max-width: $modal-md;
+    max-width: 100%;
     margin: $modal-dialog-margin-y-sm-up auto;
   }
 

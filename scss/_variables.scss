@@ -978,8 +978,8 @@ $badge-pill-border-radius: 10rem !default;
 // Padding applied to the modal body
 $modal-inner-padding: 1rem !default;
 
-$modal-dialog-margin: 0.5rem !default;
-$modal-dialog-margin-y-sm-up: 1.75rem !default;
+$modal-dialog-margin: 0 !default;
+$modal-dialog-margin-y-sm-up: 0 !default;
 
 $modal-title-line-height: $line-height-base !default;
 

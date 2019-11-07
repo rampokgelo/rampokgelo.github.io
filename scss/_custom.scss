@@ -1,8 +1,9 @@
 .navbar-main {
+  padding: $spacer;
   position: fixed;
   left: 0;
   top: 0;
-  width: 200px;
+  width: 300px;
   height: 100%;
   .wrapper-nav {
     display: flex;
@@ -18,11 +19,40 @@
     background-color: $white;
   }
   ul {
+    margin-top: $spacer*2;
     padding-left: 0;
+    li{
+      a{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+  .navbar-footer {
+    position: relative;
+    padding-left: $spacer * 2.5;
+    .copyright {
+      width: 270px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 75%;
+      transform: rotate(-90deg) translate(130px, -120px);
+      color: $gray-600;
+    }
+    .sosmed{
+      a{
+        padding: $spacer/2;
+        font-size: $font-size-base*1.5;
+      }
+    }
   }
 }
+.posrel {
+  position: relative;
+}
 .wrapper {
-  padding-left: 230px;
+  padding-left: 330px;
 }
 .banner {
   height: 100vh;
@@ -64,4 +94,9 @@ section {
     border: solid 1px $gray-900;
     display: block;
   }
+}
+.finalart{
+  color: $gray-900;
+  margin: auto;
+  width: 700px;
 }
