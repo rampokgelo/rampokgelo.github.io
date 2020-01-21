@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "rampokgelo.github.io/precache-manifest.e25c83223c13887564b2aedad15da704.js"
+  "rampokgelo.github.io/precache-manifest.f49475b94cab5ad0b5896e48ce0b5c0f.js"
 );
 
 self.addEventListener('message', (event) => {

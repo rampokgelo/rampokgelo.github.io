@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4815afcb56ee4662adfaf41d5e31289",
+    "revision": "ac59b5374b7dbf4c8aa19835e9f902cf",
     "url": "rampokgelo.github.io/index.html"
   },
   {
-    "revision": "274c9936740f0415269b",
+    "revision": "d5e945bb4681e16359cf",
     "url": "rampokgelo.github.io/static/css/main.9b98e786.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "rampokgelo.github.io/static/js/2.5b5a555a.chunk.js.LICENSE"
   },
   {
-    "revision": "274c9936740f0415269b",
-    "url": "rampokgelo.github.io/static/js/main.542f7f3d.chunk.js"
+    "revision": "d5e945bb4681e16359cf",
+    "url": "rampokgelo.github.io/static/js/main.bc98e2f5.chunk.js"
   },
   {
     "revision": "ea76342c9992d0f1e853",
@@ -82,9 +82,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2801fb415f03c7b170934769d7b5397",
     "url": "rampokgelo.github.io/static/media/fa-solid-900.c2801fb4.svg"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "rampokgelo.github.io/static/media/logo.5d5d9eef.svg"
   }
 ]);
