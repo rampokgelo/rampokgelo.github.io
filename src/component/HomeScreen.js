@@ -8,7 +8,7 @@ class HomeScreen extends React.Component {
           <div className="wrapper-nav">
             <div>
               <a className="navbar-brand" href="/">
-                Brand Name
+                Brand
               </a>
               <ul className="list-unstyled">
                 <li className="nav-item">
